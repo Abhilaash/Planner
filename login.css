@@ -2,11 +2,15 @@
 body {
     background-image: url("http://marshall.org/wp-content/themes/marshall/img/featured-space-policy.jpg");
     background-repeat: no-repeat;
-     background-size: 1920px 1080px;
+     background-size: 100%;
 }
 
+
+div .spacing{
+  margin-top: 20px;
+}
 .loginmodal-container input[type=text], input[type=password] {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
-
 
