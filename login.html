@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-		<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    		<link rel="stylesheet" href="main.css">
+		 <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
 	</head>
-	
 	<body>
-		<form role="form">
-    			<div class="form-group">
-			 	<label for="usr">Name:</label>
-				 <input type="text" class="form-control" id="usr">
-    			</div>
-			 <div class="form-group">
-      				<label for="pwd">Password:</label>
-      				<input type="password" class="form-control" id="pwd">
-    			</div>
-		 </form>
+		<div class="container">
+		  		<h2>Login</h2>
+		<form role = "form">
+			<div class="form-group">
+				<div >
+				  	<label for="username">Username:</label>
+				  	<input class="form-control" id="username" type="text" placeholder = "Username">
+				</div>
+			</div>
+			<div class="form-group">
+				<div>
+					<label for="password">Password:</label>
+					<input class="form-control" id="password" type="text" placeholder = "Password">
+				</div>
+	  		</div>
+	  		<button type="submit" class="btn btn-default">Submit</button>
+	  	</form>
+	  	
+		  
 	</body>
 </html> 
