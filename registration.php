@@ -17,12 +17,12 @@
 				<form class="form-registration">
 					<center><h1> <font color="#FF6666">Register Here! </font></h1><Center>
 					<img src = "planitlogosidewaysblack.png" height = "70%" width = "70%">
-					<input type="text" class="form-control" placeholder="Firstname" id = "firstname" required>
-			        <input type="text" class="form-control" placeholder="Lastname" id = "lastname" required>
-			        <input type="text" class="form-control" placeholder="Email" id = "email" required>
-			        <input type="text" class="form-control" placeholder="Username" id = "username" required>
-			        <input type="text" class="form-control" placeholder="Password" id = "password" required>
-			        <input type="text" class="form-control" placeholder="Confirm Password" id = "confirmpassword" required>
+	<input type="text" class="form-control" placeholder="Firstname" id = "firstname" name = "firstname" required>
+			        <input type="text" class="form-control" placeholder="Lastname" id = "lastname" name = "lastname" required>
+			        <input type="text" class="form-control" placeholder="Email" id = "email" name = "email" required>
+			        <input type="text" class="form-control" placeholder="Username" id = "username" name = "username" required>
+			        <input type="text" class="form-control" placeholder="Password" id = "password" name = "password" required>
+			        <input type="text" class="form-control" placeholder="Confirm Password" id = "confirmpassword" name = "confirmpassword" required>
 			        <button class="btn btn-lg btn-danger btn-block" type="submit">Register</button>
 			    </form>
 			</div>
