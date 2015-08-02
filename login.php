@@ -31,7 +31,12 @@
     </div>
 </div>
 	<?php
+		$username = "ba9022d6acbebc";
+	$password = "cbb3d49f";
+	$hostname = "br-cdbr-azure-south-a.cloudapp.net"; 
+	
 		if(array_key_exists("username", $_REQUEST)){
+
 			$username = $_REQUEST["username"];
 			$password = md5($_REQUEST["password"]);
 			$data = validate($username, $password);
