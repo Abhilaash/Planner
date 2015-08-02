@@ -56,12 +56,12 @@
 	// 	}
 	// 	echo("Incorrect username or password");
 	// }
-	// function validate($username, $password){
-	// 	if($username == 'abhilaash'){
-	// 		if($password == 'asdfjkl;'){
-	// 			header("Location: userprofile.html")
-	// 		}
-	// 	}
-	// }
+	function validate($username, $password){
+		if($username == 'abhilaash'){
+			if($password == 'asdfjkl;'){
+				header("Location: userprofile.html")
+			}
+		}
+	}
 	?>
 </html>
