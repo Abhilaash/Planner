@@ -4,6 +4,25 @@
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="login.css">
 	</head>
+<<<<<<< HEAD
+=======
+	<h1>Please Log In To Continue!
+	<body>
+	<form method="POST" action="login.php"><br>
+	Username:<br>
+	<input type="text" name="username" id="username"><br><br>
+	Password:<br>
+	<input type="password" name="password" id="username"><br>
+	&nbsp;&nbsp;<button type="submit" id = "login" accesskey = "l" >Log In</button>&nbsp;&nbsp;
+	</form>
+	</body><!DOCTYPE html>
+<html>
+	<head>
+		 <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="login.css">
+	</head>
+>>>>>>> origin/master
 
 <div class="container">
     <div class="row">
