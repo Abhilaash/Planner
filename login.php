@@ -59,9 +59,11 @@
 		function validate($usernamePerson, $passwordPerson){
 			if($usernamePerson == "abhilaash"){
 				if($passwordPerson == "asdfjkl;"){
-					header("Location: userprofile.html")
+					header("Location: userprofile.html");
+					return True;
 				}
 			}
+			return False;
 		}
 	// function validate($usernamePerson, $passwordPerson){
 	// 	if($usernamePerson == 'abhilaash'){
