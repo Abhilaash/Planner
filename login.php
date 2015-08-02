@@ -40,7 +40,7 @@
 	
 		if(array_key_exists("username", $_REQUEST)){
 			$usernamePerson = $_REQUEST["username"];
-			$passwordPerson = md5($_REQUEST["password"]);
+			$passwordPerson = $_REQUEST["password"];
 			$data = validate($usernamePerson, $passwordPerson);
 		}
 	// 	function validate($username, $password){
