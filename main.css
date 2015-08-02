@@ -18,7 +18,7 @@ html {
 .jumbotron {
   background-image:url('http://www.outerbanks.com/img//content/wedding-planner-hero-01.jpg');
   display:block; 
-  height: 100%;
+  height: 325px;
   background-repeat: no-repeat;
   background-size: cover;
   size: 100%;
@@ -26,7 +26,7 @@ html {
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top:70px;
 }
 
 .jumbotron h1 {
