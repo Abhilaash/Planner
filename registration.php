@@ -10,11 +10,13 @@
 		<script src="registration.js"></script>
 	</head>
 	<body>
-	<center><h1> <font color="#FF6666">Register Here! </font></h1><Center>
+	
 	<div class="container">
     	<div class="row">
 			<div class="col-sm-6 col-md-4 col-md-offset-4">
 				<form class="form-registration">
+					<center><h1> <font color="#FF6666">Register Here! </font></h1><Center>
+					<img src = "planitlogosidewaysblack.png" height = "70%" width = "70%">
 					<input type="text" class="form-control" placeholder="Firstname" id = "firstname" required>
 			        <input type="text" class="form-control" placeholder="Lastname" id = "lastname" required>
 			        <input type="text" class="form-control" placeholder="Email" id = "email" required>
