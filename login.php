@@ -38,11 +38,11 @@
 	// $password = "cbb3d49f";
 	// $hostname = "br-cdbr-azure-south-a.cloudapp.net"; 
 	
-		if(array_key_exists("username", $_REQUEST)){
-			$username = $_REQUEST["username"];
-			$password = md5($_REQUEST["password"]);
-			validate($username, $password);
-		}
+		// if(array_key_exists("username", $_REQUEST)){
+			// $username = $_REQUEST["username"];
+			// $password = md5($_REQUEST["password"]);
+		// 	validate($username, $password);
+		// }
 	// 	function validate($username, $password){
 	// 	$db = new Database();
 	// 	$db->exec("CREATE TABLE IF NOT EXISTS recipes (username TEXT PRIMARY KEY, password TEXT, email TEXT, name TEXT)");
@@ -56,12 +56,12 @@
 	// 	}
 	// 	echo("Incorrect username or password");
 	// }
-	function validate($username, $password){
-		if($username == 'abhilaash'){
-			if($password == 'asdfjkl;'){
-				header("Location: userprofile.html")
-			}
-		}
-	}
+	// function validate($username, $password){
+	// 	if($username == 'abhilaash'){
+	// 		if($password == 'asdfjkl;'){
+	// 			header("Location: userprofile.html")
+	// 		}
+	// 	}
+	// }
 	?>
 </html>
