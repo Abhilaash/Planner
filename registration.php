@@ -2,36 +2,30 @@
 <html>
     <head>
 	<title> Registration </title>
-	<link rel="shortcut icon" href="image.ico">
-        <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="51.css">
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    	<link rel="stylesheet" href="registration.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="registration.js"></script>
 	</head>
 	<body>
-	<h1> Register Here! </h1>
-<form method="POST" action="registration.php">
-	First Name<br>
-	<input type="text" name="firstname">
-	<br>
-	Last Name<br>
-	<input type="text" name="lastname">
-	<br>
-	Email Address<br>
-	<input type="text" name="email">
-	<br>
-	Username<br>
-	<input type="text" name="username">
-	<br>
-	Password<br>
-	<input type="password" name="password">
-	<br>
-	Re-enter Password<br>
-	<input type="password" name="confirmpass">
-	<br>
-	<br>
-	<button type="submit" id = "submit" accesskey = "s" > Submit </button>&nbsp;&nbsp;&nbsp;<button type="button" id = "login" accesskey = "l" > Log In </button>
-</form>
+	<center><h1> <font color="#FF6666">Register Here! </font></h1><Center>
+	<div class="container">
+    	<div class="row">
+			<div class="col-sm-6 col-md-4 col-md-offset-4">
+				<form class="form-registration">
+					<input type="text" class="form-control" placeholder="Firstname" id = "firstname" required>
+			        <input type="text" class="form-control" placeholder="Lastname" id = "lastname" required>
+			        <input type="text" class="form-control" placeholder="Email" id = "email" required>
+			        <input type="text" class="form-control" placeholder="Usernmae" id = "username" required>
+			        <input type="text" class="form-control" placeholder="Password" id = "password" required>
+			        <input type="text" class="form-control" placeholder="Password" id = "confirmpassword" required>
+			        <button class="btn btn-lg btn-danger btn-block" type="submit">Register</button>
+			    </form>
+			</div>
+		</div>
+	</div>
 
 	</body>
 	<?php
@@ -53,7 +47,6 @@
 				echo("Passwords do not match");
 			}
 		}
-
 		function uploadData($name, $username, $password, $email) {
 			$db = new Database();
 			$db->exec("CREATE TABLE IF NOT EXISTS recipes (username TEXT PRIMARY KEY, password TEXT, email TEXT, name TEXT)");
