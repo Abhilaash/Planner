@@ -4,7 +4,17 @@
 }
 
 body{
-	 /*background-image: url("http://content.wallpapers-room.com/resolutions/1920x1200/A/Wallpapers-room_com___A_New_Dawn_by_Burning-Liquid_1920x1200.jpg");*/
+	 background-image: url("http://3.bp.blogspot.com/-YN01mA1LzPQ/U_ecF0U4uMI/AAAAAAAA0Bc/_RJi8IiQH5Y/s1600/2015_IHeart_Organizing_Daily_Planner_4-2.jpg");
     background-repeat: no-repeat;
      background-size: 100%;
+}
+
+.form-registration{
+	margin-top: 100px;
+	 border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	background-color: white;
 }
