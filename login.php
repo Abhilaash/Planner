@@ -66,7 +66,7 @@
 		// echo("Incorrect username or password");
 		if($username == 'abhilaash'){
 			if($password == 'asdfjkl;'){
-				header("Location: ")
+				header("Location: userprofile.html")
 			}
 		}
 	}
