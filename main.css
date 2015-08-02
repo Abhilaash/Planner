@@ -63,14 +63,21 @@
 }
 
 div .thumbnail1 {
- background-image: url("http://iconshow.me/media/images/Mixed/small-n-flat-icon/png/512/calendar.png");
+ background-image: url(todolist.png);
  height: 300px;
  width: 300px;
  background-size: cover;
 
 }
 div .thumbnail2{
- background-image: url("https://lh3.ggpht.com/_q4Y1VB0RxOd8vJ_TlACus2i0rw66tfcg8DND72tTWh83N1Yk3pEbdP9Vljhsd7TZokv=w300");
+ background-image: url(grades.png);
+ height: 300px;
+ width: 300px;
+ background-size: cover;
+}
+
+div .thumbnail3{
+ background-image: url(time.png);
  height: 300px;
  width: 300px;
  background-size: cover;
