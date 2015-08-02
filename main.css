@@ -69,4 +69,10 @@ html {
     font-size: 15px;
     margin-bottom: 13px;
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
     
