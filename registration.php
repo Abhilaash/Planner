@@ -20,9 +20,9 @@
 					<input type="text" class="form-control" placeholder="Firstname" id = "firstname" required>
 			        <input type="text" class="form-control" placeholder="Lastname" id = "lastname" required>
 			        <input type="text" class="form-control" placeholder="Email" id = "email" required>
-			        <input type="text" class="form-control" placeholder="Usernmae" id = "username" required>
+			        <input type="text" class="form-control" placeholder="Username" id = "username" required>
 			        <input type="text" class="form-control" placeholder="Password" id = "password" required>
-			        <input type="text" class="form-control" placeholder="Password" id = "confirmpassword" required>
+			        <input type="text" class="form-control" placeholder="Confirm Password" id = "confirmpassword" required>
 			        <button class="btn btn-lg btn-danger btn-block" type="submit">Register</button>
 			    </form>
 			</div>
