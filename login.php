@@ -4,8 +4,12 @@
 		 <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
     <link rel="stylesheet" href="login.css">
-	</head>
+    </head>
 
+<div class="container"> 
+<p></p>
+<p></p>
+</div>
 <div class="container">
     <div class="row">
 
@@ -20,9 +24,9 @@
                 <center><img src="planitlogosidewaysblack.png" height = "70%" width = "70%"></center>
                 <input type="text" class="form-control" placeholder="Username" name = "username" id = "username" required autofocus>
                 <input type="password" class="form-control" placeholder="Password" name = "password" id = "password" required>
-                <button class="btn btn-lg btn-primary btn-block" type="submit"><a href "userprofile.html">
-                    Sign in </a></button>
-                <a href="#" class="text-center new-account">Create an account </a>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Sign in</button>
+                <a href="registration.php" class="text-center new-account">Create an account </a>
                 </form> 
             </div>
             
