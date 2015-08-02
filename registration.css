@@ -1,0 +1,10 @@
+.container input[type=text] {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body{
+	 /*background-image: url("http://content.wallpapers-room.com/resolutions/1920x1200/A/Wallpapers-room_com___A_New_Dawn_by_Burning-Liquid_1920x1200.jpg");*/
+    background-repeat: no-repeat;
+     background-size: 100%;
+}
