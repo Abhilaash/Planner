@@ -19,7 +19,7 @@
             <!-- <h1 class="text-center login-title"><font color="white">Login</font></h1> -->
             <div class="account-wall">
 
-                <form class="form-signin">
+                <form class="form-signin" action="login.php">
                 <center><h1> <font color="#19A3FF">Login </font></h1><Center>
                 <center><img src="planitlogosidewaysblack.png" height = "70%" width = "70%"></center>
                 <input type="text" class="form-control" placeholder="Username" name = "username" id = "username" required autofocus>
