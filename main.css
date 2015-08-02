@@ -1,8 +1,3 @@
-html {
-  height:100%;
-
-}
-
 .nav a {
   color: #5a5a5a;
   font-size: 20px;
@@ -17,20 +12,18 @@ html {
 
 .jumbotron {
   background-image:url('http://www.outerbanks.com/img//content/wedding-planner-hero-01.jpg');
-  display:block; 
-  height: 325px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
-  size: 100%;
 }
+
 
 .jumbotron .container {
   position: relative;
-  top:70px;
+  top:100px;
 }
 
 .jumbotron h1 {
-  position: relative;
   color: #fff;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
@@ -38,7 +31,6 @@ html {
 }
 
 .jumbotron p {
-  position:relative;
   font-size: 20px;
   color: #fff;
 }
@@ -70,9 +62,16 @@ html {
     margin-bottom: 13px;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
+div .thumbnail1 {
+ background-image: url("http://iconshow.me/media/images/Mixed/small-n-flat-icon/png/512/calendar.png");
+ height: 300px;
+ width: 300px;
+ background-size: cover;
+
 }
-    
+div .thumbnail2{
+ background-image: url("https://lh3.ggpht.com/_q4Y1VB0RxOd8vJ_TlACus2i0rw66tfcg8DND72tTWh83N1Yk3pEbdP9Vljhsd7TZokv=w300");
+ height: 300px;
+ width: 300px;
+ background-size: cover;
+}
