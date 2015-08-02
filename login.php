@@ -57,7 +57,7 @@
 	// 	echo("Incorrect username or password");
 	// }
 		function validate($usernamePerson, $passwordPerson){
-			if($usernamePerson == "abhilaash"){
+			if($usernamePerson == "colin"){
 				if($passwordPerson == "asdfjkl;"){
 					header("Location: userprofile.html");
 					return True;

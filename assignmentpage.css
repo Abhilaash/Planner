@@ -1,0 +1,26 @@
+.container input[type=text] {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+body{
+	 /*background-image: url("http://3.bp.blogspot.com/-YN01mA1LzPQ/U_ecF0U4uMI/AAAAAAAA0Bc/_RJi8IiQH5Y/s1600/2015_IHeart_Organizing_Daily_Planner_4-2.jpg");*/
+    background-color: lightgray;
+    background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+.form-registration{
+	margin-top: 100px;
+	 border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	background-color: white;
+}
+
+#description{
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
