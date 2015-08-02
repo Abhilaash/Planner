@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="login.css">
+	</head>
+
 <div class="container">
     <div class="row">
 
@@ -21,3 +29,82 @@
         </div>
     </div>
 </div>
+	<?php
+		$username = "ba9022d6acbebc";
+	$password = "cbb3d49f";
+	$hostname = "br-cdbr-azure-south-a.cloudapp.net"; 
+	
+		if(array_key_exists("username", $_REQUEST)){
+			$username = $_REQUEST["username"];
+			$password = md5($_REQUEST["password"]);
+			$data = validate($username, $password);
+		}
+	// 	function validate($username, $password){
+	// 	$db = new Database();
+	// 	$db->exec("CREATE TABLE IF NOT EXISTS recipes (username TEXT PRIMARY KEY, password TEXT, email TEXT, name TEXT)");
+	// 	$ret = $db->query("SELECT username, password FROM recipes");
+	// 	while($elements = $ret->fetchArray(SQLITE3_ASSOC)){
+	// 		if($username == $elements['username']){
+	// 			if($password == $elements['password']){
+	// 				header("Location:homepage.html");
+	// 			}
+	// 		}
+	// 	}
+	// 	echo("Incorrect username or password");
+	// }
+	function validate($username, $password){
+		// $db = new Database();
+		// $db->exec("CREATE TABLE IF NOT EXISTS recipes (username TEXT PRIMARY KEY, password TEXT, email TEXT, name TEXT)");
+		// $ret = $db->query("SELECT username, password FROM recipes");
+		// while($elements = $ret->fetchArray(SQLITE3_ASSOC)){
+		// 	if($username == $elements['username']){
+		// 		if($password == $elements['password']){
+		// 			header("Location:homepage.html");
+		// 		}
+		// 	}
+		// }
+		// echo("Incorrect username or password");
+		if($username == 'abhilaash'){
+			if($password == 'asdfjkl;'){
+				header("Location: ")
+			}
+		}
+	}
+	// 	$host = "br-cdbr-azure-south-a.cloudapp.net";
+	//     $user = "ba9022d6acbebc";
+	//     $pwd = "cbb3d49f";
+	//     $db = "LoginInfo";
+			
+	// 	// Create connection
+	// 	$conn = new mysqli($servername, $username, $password);
+		
+	// 	// Check connection
+	// 	if ($conn->connect_error) {
+	// 	    die("Connection failed: " . $conn->connect_error);
+	// 	} 
+	// 	echo "Connected successfully";
+	// 	class Database extends SQLite3 {
+	// 		function __construct() {
+	// 			$this->open('names.db', SQLITE3_OPEN_READWRITE);
+	// 		}
+	// 	}
+	// 	if(array_key_exists("username", $_REQUEST)){
+	// 		$username = $_REQUEST["username"];
+	// 		$password = md5($_REQUEST["password"]);
+	// 		$data = validate($username, $password);
+	// 	}
+	// function validate($username, $password){
+	// 	$db = new Database();
+	// 	$db->exec("CREATE TABLE IF NOT EXISTS recipes (username TEXT PRIMARY KEY, password TEXT, email TEXT, name TEXT)");
+	// 	$ret = $db->query("SELECT username, password FROM recipes");
+	// 	while($elements = $ret->fetchArray(SQLITE3_ASSOC)){
+	// 		if($username == $elements['username']){
+	// 			if($password == $elements['password']){
+	// 				header("Location:homepage.html");
+	// 			}
+	// 		}
+	// 	}
+	// 	echo("Incorrect username or password");
+	// }
+	?>
+</html>
